@@ -31,6 +31,7 @@ body::before {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  opacity: 50%;
 }
 
 h1 {
@@ -95,15 +96,16 @@ button {
   padding: 0 0.625rem;
   margin-bottom: 1.875rem;
   font-family: "Share Tech Mono";
+  text-shadow: 1px 1px 1px rgba(5, 88, 42, 0.979);
   color: #b5f13b;
+  font-weight: 400;
 }
 
 .description {
   font-style: italic;
   font-weight: 200;
-  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
   font-family: "Roboto";
-  color: #b5f13b;
+  color: #1c1f1c;
 }
 
 .clue {
